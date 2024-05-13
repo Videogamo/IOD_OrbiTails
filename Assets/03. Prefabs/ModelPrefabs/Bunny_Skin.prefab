@@ -9,12 +9,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39750093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.39750093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.39750093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_Name
       value: Bunny_Skin
@@ -67,7 +83,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 61cb027fb1a95714b83288caae858ddb, type: 2}
+      objectReference: {fileID: 22100000, guid: 7c383f95d7d887945912a4ac0439c0f8, type: 2}
     - target: {fileID: 5866666021909216657, guid: 4efbb9e1c9ecfb441b3e9d1ab60b2eec, type: 3}
       propertyPath: m_CullingMode
       value: 0
