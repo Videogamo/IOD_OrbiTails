@@ -71,7 +71,7 @@ public class CountSystem : MonoBehaviour
         for (int i = 0; i < _playerList.Count; ++i)
         {
             CoinObtainer co = _playerList[i].GetComponent<CoinObtainer>();
-            if (co.Coins[0] >= 3 && co.Coins[1] >= 2 && co.Coins[2] >= 1)
+            if (co.Coins[0] >= 3 && co.Coins[1] >= 6 && co.Coins[2] >= 9)
             {
                 return i;
             }
