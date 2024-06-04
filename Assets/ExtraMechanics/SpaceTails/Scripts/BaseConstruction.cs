@@ -68,6 +68,6 @@ public class BaseConstruction : MonoBehaviour
         }
         if (_constructionSound != null) _constructionSound.Play();
         _baseSteps[_state].SetActive(true);
-        _effect.Pause(true);
+        //_effect.Pause(true);
     }
 }
