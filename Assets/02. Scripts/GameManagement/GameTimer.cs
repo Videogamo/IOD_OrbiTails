@@ -54,13 +54,6 @@ public class GameTimer : MonoBehaviour
     {
         if (_running)
         {
-            _timer -= Time.deltaTime;
-            if (_timer <= 0f)
-            {
-                _timer = 0f;
-                _running = false;
-                OnTimerEnded?.Invoke();
-            }
         } else if (_preparationRunning)
         {
             _timer -= Time.deltaTime;

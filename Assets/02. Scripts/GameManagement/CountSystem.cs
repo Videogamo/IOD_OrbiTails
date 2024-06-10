@@ -39,13 +39,11 @@ public class CountSystem : MonoBehaviour
     private void OnEnable()
     {
         PlayerJoinNotifier.OnPlayerJoins += OnPlayerJoined;
-        GameTimer.OnTimerEnded += OnTimerEnded;
     }
 
     private void OnDisable()
     {
         PlayerJoinNotifier.OnPlayerJoins -= OnPlayerJoined;
-        GameTimer.OnTimerEnded -= OnTimerEnded;
         foreach(var player in _playerList)
         {
             player.GetComponent<CoinObtainer>().OnCoinObtained -= OnCoinObtained;
@@ -81,6 +79,7 @@ public class CountSystem : MonoBehaviour
 
     private void OnTimerEnded()
     {
+        GameTimer.OnTimerEnded?.Invoke();
         var wonIndex = PlayerWon();
         
         GameObject current = _playerList[wonIndex];
