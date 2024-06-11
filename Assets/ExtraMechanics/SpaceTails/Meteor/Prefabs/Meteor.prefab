@@ -48,10 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coinBehaviour: {fileID: 7458283812974929337}
-  _speed: 5
+  _speed: 7
   _startingYPosition: 20
-  _yPositionToExplode: -2
-  _explosionEffect: {fileID: 3438022889981952760, guid: 485ac15d07fffae41bd3c8c29d744b27, type: 3}
+  _yPositionToExplode: 0
+  _explosionEffect: {fileID: 980364651505397320, guid: 93bfe7e76c511de4a96f939bbd317f70, type: 3}
 --- !u!114 &7458283812974929337
 MonoBehaviour:
   m_ObjectHideFlags: 0
