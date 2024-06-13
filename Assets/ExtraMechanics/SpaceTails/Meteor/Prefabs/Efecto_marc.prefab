@@ -4999,3 +4999,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _radius: 5
+  _stunTime: 3
