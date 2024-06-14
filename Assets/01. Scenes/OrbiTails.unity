@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571337, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -292,8 +292,8 @@ MonoBehaviour:
   - {fileID: 363690709}
   - {fileID: 2070380558}
   _characterPrefabs:
+  - {fileID: 8402241805276320244, guid: 28bc875d1b58aa1478f9b663b873529c, type: 3}
   - {fileID: 4697015063004462762, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
-  - {fileID: 5207098023798098211, guid: 6f56ec6139982414c9e875a18505ca41, type: 3}
   - {fileID: 5054628684039633029, guid: d2214ffd15f82cd48a4b90515bee650e, type: 3}
   - {fileID: 5207098023798098211, guid: 6f56ec6139982414c9e875a18505ca41, type: 3}
 --- !u!4 &12176699
@@ -11072,7 +11072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_NotificationBehavior: 2
-  m_MaxPlayerCount: 2
+  m_MaxPlayerCount: 3
   m_AllowJoining: 1
   m_JoinBehavior: 0
   m_PlayerJoinedEvent:
@@ -11615,6 +11615,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gameDuration: 60
   _preparationDuration: 3
+--- !u!1001 &2140134631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4697015063004462762, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_Name
+      value: Bunny_Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5508816
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7509112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360681021987251216, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 4989888035719767955, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32e26f224bc31f44fa4623285b2dae67, type: 3}
 --- !u!1001 &1183729762652346296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12457,3 +12515,4 @@ SceneRoots:
   - {fileID: 1407793202}
   - {fileID: 264618562}
   - {fileID: 1961195431}
+  - {fileID: 2140134631}
