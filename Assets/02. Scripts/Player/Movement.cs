@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     // When you press WASD or move the left joystick, save the direction you are pointing to
     public void Move(InputAction.CallbackContext ctx)
     {
-        if (GameTimer.instance.GameRunning)
+        if (CountSystem.Instance.GameRunning)
         {
             if (ctx.started || ctx.performed)
             {

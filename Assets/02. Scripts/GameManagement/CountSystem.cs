@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
 
+ 
+
 public class CountSystem : MonoBehaviour
 {
     public static CountSystem Instance;
@@ -24,7 +26,9 @@ public class CountSystem : MonoBehaviour
 
     public int[] MaxPerCoin => _maxPerCoin;
 
-
+    public bool GameRunning => _running;
+    private bool _running = false;
+    
     private List<GameObject> _playerList = new List<GameObject>();
 
     private void Awake()
@@ -39,15 +43,22 @@ public class CountSystem : MonoBehaviour
     private void OnEnable()
     {
         PlayerJoinNotifier.OnPlayerJoins += OnPlayerJoined;
+        GameTimer.OnPreparationEnded += PreparationEnded;
     }
 
     private void OnDisable()
     {
         PlayerJoinNotifier.OnPlayerJoins -= OnPlayerJoined;
+        GameTimer.OnPreparationEnded -= PreparationEnded;
         foreach(var player in _playerList)
         {
             player.GetComponent<CoinObtainer>().OnCoinObtained -= OnCoinObtained;
         }
+    }
+
+    private void PreparationEnded()
+    {
+        _running = true;
     }
 
     private void OnPlayerJoined(PlayerInput playerInput)
@@ -81,7 +92,8 @@ public class CountSystem : MonoBehaviour
     {
         GameTimer.OnTimerEnded?.Invoke();
         var wonIndex = PlayerWon();
-        
+        _running = false;
+
         GameObject current = _playerList[wonIndex];
 
         _virtualCamera.Follow = current.transform;
