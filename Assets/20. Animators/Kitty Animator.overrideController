@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kitty Animator
+  m_Controller: {fileID: 9100000, guid: 61cb027fb1a95714b83288caae858ddb, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: ac450f8d3e2802f4494f387c96f25329, type: 3}
+    m_OverrideClip: {fileID: 4781951162920444690, guid: e439cee4f0d343649b7d2f9f4bc5a0f2, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: a22f4ca7e57ecd446aef69d15b3ed13f, type: 3}
+    m_OverrideClip: {fileID: -1246731831762816583, guid: 1dfa8275ecd90a94b9c5bb5244b3f28f, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: df70849d98250734293b00c02c2642b9, type: 3}
+    m_OverrideClip: {fileID: 4594303134292970328, guid: 1dfa8275ecd90a94b9c5bb5244b3f28f, type: 3}
+  - m_OriginalClip: {fileID: 4781951162920444690, guid: cd76442182e980343ba8dda25b75ce49, type: 3}
+    m_OverrideClip: {fileID: 4781951162920444690, guid: cd76442182e980343ba8dda25b75ce49, type: 3}
