@@ -3,7 +3,22 @@ guid: 21f15d7fc9b734f1bb2ab72802ddfaad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mineral
+    second: {fileID: 2100000, guid: 59aaa7d3593146548aa2c984a6141070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mineral2
+    second: {fileID: 2100000, guid: 59aaa7d3593146548aa2c984a6141070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Monta\xF1a"
+    second: {fileID: 2100000, guid: 74b4259f640c4a84a9e3d103552f8126, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,7 +105,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.0034999999
+    globalScale: 0.35
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
