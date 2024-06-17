@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piedra2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5c7bf7aaf6c3d6479bf73dd1b544108, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
