@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fef35f2a0f4614d54b03907493d58076
+guid: ebed6f89100f2436cb335311a9ca8c6f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idlepiggy2
+      name: PiggyRun
       takeName: Armature|ArmatureAction
       internalID: 4781951162920444690
       firstFrame: 0
-      lastFrame: 39
+      lastFrame: 12
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -400,7 +400,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 0.01
-    rootMotionBoneName: Hip.001
+    rootMotionBoneName: Armature
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
