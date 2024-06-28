@@ -299,7 +299,7 @@ MonoBehaviour:
   _characterPrefabs:
   - {fileID: 3296313394992394938, guid: 632a67bc2136c40888ae5bdc8446b264, type: 3}
   - {fileID: 8402241805276320244, guid: 28bc875d1b58aa1478f9b663b873529c, type: 3}
-  - {fileID: 7283979522173727568, guid: e15c09dff53b64b12bdeafb5aed2590a, type: 3}
+  - {fileID: 3296313394992394938, guid: 632a67bc2136c40888ae5bdc8446b264, type: 3}
   - {fileID: 5207098023798098211, guid: 6f56ec6139982414c9e875a18505ca41, type: 3}
 --- !u!4 &12176699
 Transform:
