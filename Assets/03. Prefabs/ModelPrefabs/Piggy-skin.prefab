@@ -69,6 +69,10 @@ PrefabInstance:
       value: Piggy-skin
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d256ae13df70ed244946feea597303cb, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: d256ae13df70ed244946feea597303cb, type: 3}
+    - target: {fileID: 5866666021909216657, guid: d256ae13df70ed244946feea597303cb, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 22100000, guid: 865b858bcc681436e9e79e036a2356a6, type: 2}
